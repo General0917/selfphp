@@ -1,0 +1,20 @@
+<?php
+var_dump('3.14' == 3.14000);
+print "<br />";
+var_dump('3.14E2' == 314);
+print "<br />";
+var_dump('0x10' == 16);
+print "<br />";
+var_dump('010' == 8);
+print "<br />";
+var_dump('0b11' == 3);
+print "<br />";
+var_dump('13xyz' == 13);
+print "<br />";
+var_dump('X' == 0);
+print "<br />";
+var_dump('3.14' == '3.14000');
+print "<br />";
+var_dump('3.14E2' == '314');
+print "<br />";
+var_dump('13xyz' == '13');
