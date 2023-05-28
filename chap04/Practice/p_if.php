@@ -1,15 +1,17 @@
 <?php
 // if文を使用した場合の条件分岐
-// $score_if = 75;
-// if ($score_if >= 90) {
-//     print '優';
-// } elseif ($score_if >= 70) {
-//     print '良';
-// } elseif ($score_if >= 50) {
-//     print '可';
-// } else {
-//     print '不可';
-// }
+/*
+$score_if = 75;
+if ($score_if >= 90) {
+    print '優';
+} elseif ($score_if >= 70) {
+    print '良';
+} elseif ($score_if >= 50) {
+    print '可';
+} else {
+    print '不可';
+}
+*/
 
 // switch文を使用した場合の条件分岐
 $score_switch = 75;
