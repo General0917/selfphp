@@ -1,0 +1,6 @@
+<?php
+$dt1 = new DateTime('2016/5/15 10:58:31');
+$dt2 = new DateTime('2016/12/04');
+$interval = $dt1->diff($dt2, true);
+
+print $interval->format('%Y年%M月%d日 %H時間%I分%S秒'); // $dt1と$dt2との間の差分を表示する
