@@ -1,0 +1,1 @@
+INSERT INTO member (id, nam, sex, old, enter, memo) VALUES (1, '山田太郎', '男', 20, '2016-04-01', NULL);

@@ -1,0 +1,8 @@
+CREATE TABLE member (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    nam VARCHAR(255) NOT NULL,
+    sex CHAR(1) DEFAULT '’j',
+    old INT NOT NULL,
+    enter DATE NOT NULL,
+    memo VARCHAR(255) DEFAULT NULL
+);
