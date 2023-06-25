@@ -1,0 +1,1 @@
+SELECT sex, AVG(old) FROM member GROUP BY sex;

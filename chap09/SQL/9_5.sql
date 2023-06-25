@@ -1,0 +1,1 @@
+SELECT nam, old FROM member;

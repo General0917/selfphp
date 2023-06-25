@@ -1,0 +1,1 @@
+SELECT id, nam, old FROM member ORDER BY old, id DESC;

@@ -1,0 +1,1 @@
+SELECT sex, AVG(old) AS old_avg FROM member GROUP BY sex;

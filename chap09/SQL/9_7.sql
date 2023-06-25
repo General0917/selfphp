@@ -1,0 +1,1 @@
+SELECT nam, sex, memo FROM member WHERE sex = '’j' AND memo is NOT NULL;
