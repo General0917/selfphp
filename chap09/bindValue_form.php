@@ -2,12 +2,12 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>画像データをpostする</title>
+    <title>画像のアップロード</title>
 </head>
 <body>
-    <form method="post" action="files_upload2.php">
+    <form method="post" enctype="multipart/form-data" action="bindValue_process.php">
         <label for="image">画像ファイルをアップロードしてください:</label>
-        <input type="file" name="image" size="20" />
+        <input id="image" type="file" name="image" size="50" />
         <input type="submit" value="アップロード" />
     </form>
 </body>
