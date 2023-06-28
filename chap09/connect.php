@@ -8,7 +8,7 @@ try {
     $db = new PDO($dsn, $user, $password);
     print '接続に成功しました。';
 } catch (PDOException $e) {
-    print '接続エラー' . "{$e->getMessage()}";
+    print '接続エラー:' . "{$e->getMessage()}";
 } finally {
     $db = null;
 }

@@ -1,6 +1,6 @@
 <?php
 function getDb() {
-    $dsn = 'mysql:dbname=selfphp; host=Localhost; charset=utf8';
+    $dsn = 'mysql:dbname=selfphp; host=localhost; charset=utf8';
     $user = 'General';
     $password = 12345;
 
