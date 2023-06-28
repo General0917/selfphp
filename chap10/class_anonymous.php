@@ -1,0 +1,27 @@
+<?php
+interface Runnable {
+    function run();
+}
+
+class MyClass {
+    public function execute(Runnable $rc) {
+        // ダミー処理（本来は何らかの前処理を実行）
+        print 'start...';
+
+        // 利用者側から指定された処理を実行
+        $rc->run();
+
+        // ダミー処理（本来は何らかの後処理を実行）
+        print 'end...';
+    }
+}
+
+$cls = new MyClass('MyClass');
+
+// Runnable実装クラス（インターフェース）を引数に渡す
+$cls->execute(new class implements Runnable {
+    public function run() {
+        // 実装クラス（インターフェース）内での処理を実行
+        print 'process...';
+    }
+});

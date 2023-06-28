@@ -1,0 +1,22 @@
+<mxfile host="65bd71144e">
+    <diagram id="8bMtIAXIcgbXhhA1BXZm" name="ページ1">
+        <mxGraphModel dx="1255" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="8" value="" style="edgeStyle=none;html=1;fontColor=#FFFFFF;" edge="1" parent="1" source="4" target="7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="サブクラス（子クラス、派生クラス）" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;labelBackgroundColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="280" width="280" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="スーパークラス（親クラス、基底クラス）" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;labelBackgroundColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="120" width="280" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="継承（extends）キーワード" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;labelBackgroundColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="200" width="160" height="40" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
