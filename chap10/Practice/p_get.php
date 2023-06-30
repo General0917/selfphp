@@ -9,4 +9,4 @@ class MyClass {
 $obj = new MyClass('MyClass');
 
 // $obj->nothing;
-$str = $obj -> nothing;
+$str = $obj->nothing;

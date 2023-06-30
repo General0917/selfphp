@@ -11,4 +11,15 @@ class Person {
     public function show() {
         print "<p>僕の名前は{$this->firstName}{$this->lastName}です。</p>";
     }
+
+    public function __toString() {
+        return $this->firstName.$this->lastName;
+    }
+
+    public function __debugInfo() {
+        return [
+            '名' => $this->firstName,
+            '性' => $this->lastName
+        ];
+    }
 }

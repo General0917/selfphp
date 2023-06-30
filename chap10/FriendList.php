@@ -16,4 +16,16 @@ class FriendList implements IteratorAggregate {
     public function add(Person $p) {
         $this->list[] = $p;
     }
+
+    // 指定されたインデックス番号に対応するPersonオブジェクトを取得
+    public function __invoke($index) {
+        return $this->list[$index];
+    }
+
+    // __cloneメソッドを利用することで、コピー先のプロパティ値を強制的に変更（値のみcloneされる）
+    public function __clone() {
+        foreach ($this->list as &$value) {
+            $value = clone $value;
+        }
+    }
 }
