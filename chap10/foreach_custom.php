@@ -14,4 +14,4 @@ foreach ($list as $value) {
 }
 
 // FriendListオブジェクトの内容を配列型式で確認
-//print_r($list);
+// print_r($list);
