@@ -30,6 +30,12 @@
             <!-- <input type="submit" value="登録"> -->
             <button type="submit">登録</button>
         </div>
+        <?php
+        session_start();
+        $token = sha1(uniqid(mt_rand(), true));
+        $_SESSION['token'] = $token;
+        ?>
+        <input type="hidden" name="token" value="<?php print $token; ?>" />
     </form>
 </body>
 </html>

